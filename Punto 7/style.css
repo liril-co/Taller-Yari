@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #dcfdfc;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    & input{
+        padding: 0.4em 0.6em;
+        border-radius: 2px;
+        border: 1px solid grey;
+    }
+    & .reveal{
+        &:not(.hide)::after{
+            content: '🙉';
+        } 
+        &.hide::after{
+            content: '🙈';
+        }
+    }
+    & .password{
+        display: flex;
+        & .reveal{
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid grey;
+            border-left: none;
+        }
+    }
+    & .submit {
+        background: #8279d9;
+        padding: 0.4em 0.6em;
+        border: 1px solid #4f4a8d;
+        color: rgb(29, 29, 29);
+        cursor: pointer;
+
+        &:hover {
+            background: #4f4a8d;
+            color: white;
+        }
+    }
+}

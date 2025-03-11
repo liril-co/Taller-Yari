@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #dcfdfc;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    & input{
+        padding: 0.4em 0.6em;
+        border-radius: 2px;
+        border: 1px solid grey;
+    }
+    & button {
+        background: #8279d9;
+        padding: 0.4em 0.6em;
+        border: 1px solid #4f4a8d;
+        color: rgb(29, 29, 29);
+        cursor: pointer;
+
+        &:hover {
+            background: #4f4a8d;
+            color: white;
+        }
+    }
+}
+/*Basic lines for table styles*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(73, 56, 73);
+    margin-top: 1em;
+}
+
+th,
+td {
+border: 1px solid rgb(59, 59, 59);
+padding: 0.2em;
+}

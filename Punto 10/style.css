@@ -1,0 +1,22 @@
+*{
+    font-family: sans-serif;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    & .producto{
+        background-color: rgb(186, 189, 192);
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2em;
+        width: 300px;
+        align-items: center;
+        & img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+        }
+    }
+}

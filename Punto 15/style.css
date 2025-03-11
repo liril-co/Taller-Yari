@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    height: 150vh;
+}
+.scroll-to-top{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #8279d9;
+    padding: 0.4em 0.6em;
+    border: 1px solid #4f4a8d;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    &:hover{
+        background: #4f4a8d;
+        color: white;
+    }
+    &.visible{
+        opacity: 1
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cuenta-regresiva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d69292;
+    & .contador{
+        font-size: 5rem;
+        color: #d3d1d1;
+        background-color: #673535;
+        width: 15rem;
+        height: 6rem;
+        border-radius: 3rem;
+        display: grid;
+        place-content: center;
+    }
+}

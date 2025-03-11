@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+}
+.load{
+    background: #8279d9;
+    padding: 0.4em 0.6em;
+    border: 1px solid #4f4a8d;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    &:hover{
+        background: #4f4a8d;
+        color: white;
+    }
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    text-align: center;
+    background: #adadf9;
+    margin: 1em 0;
+    color: #2b2a2a;
+    border-radius: 13px;
+    overflow: hidden;
+}

@@ -1,0 +1,14 @@
+*{
+    font-family: sans-serif;
+}
+.trigger{
+    background: #8279d9;
+    padding: 0.4em 0.6em;
+    border: 1px solid #4f4a8d;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    &:hover{
+        background: #4f4a8d;
+        color: white;
+    }
+}

@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    &.claro {
+        background: #f5f5f5;
+        & .trigger {
+            background: #8279d9;
+            padding: 0.4em 0.6em;
+            border: 1px solid #4f4a8d;
+            color: rgb(29, 29, 29);
+            cursor: pointer;
+
+            &:hover {
+                background: #4f4a8d;
+                color: white;
+            }
+        }
+
+        & p {
+            color: rgb(78, 78, 78);
+        }
+    }
+
+    &.oscuro {
+        background: #2c2c2c;
+        & .trigger {
+            background: #a4a1c5;
+            padding: 0.4em 0.6em;
+            border: 1px solid #9792c7;
+            color: rgb(65, 64, 64);
+            cursor: pointer;
+
+            &:hover {
+                background: #8279d9;
+                color: rgb(29, 29, 29);
+            }
+        }
+        & p{
+            color: #cecece;
+        }
+    }
+}

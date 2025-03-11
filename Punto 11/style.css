@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+ul {
+    padding: 0;;
+    .item {
+        list-style: none;
+        padding: 0.4em;
+        background: #a2a2bb;
+        margin: 0.3em 0;
+        color: #202020;
+        &.hidden {
+            display: none;
+        }
+    }
+}
+input{
+    padding: 0.4em 0.6em;
+    border-radius: 2px;
+    border: 1px solid grey;
+}

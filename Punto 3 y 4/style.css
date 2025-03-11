@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+ul > li{
+    background: #8fd892;
+    border: 2px solid #538155;
+    list-style: none;
+    width: max-content;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    & button.delete{
+        margin-left: 1em;
+    }
+}
+.trigger{
+    background: #8279d9;
+    padding: 0.4em 0.6em;
+    border: 1px solid #4f4a8d;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+    &:hover{
+        background: #4f4a8d;
+        color: white;
+    }
+}
+input{
+    padding: 0.4em 0.6em;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
